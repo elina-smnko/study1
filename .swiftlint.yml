@@ -1,0 +1,7 @@
+custom_rules:
+  already_true:
+    regex: "== true"
+    message: "Don't compare to true, just use the bool value."
+  already_bool:
+    regex: "== false"
+    message: "Don't compare to false, just use !value."
